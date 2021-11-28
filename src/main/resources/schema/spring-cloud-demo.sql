@@ -1,0 +1,6 @@
+CREATE TABLE s_user
+(
+    id   INT UNSIGNED AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    PRIMARY KEY (id)
+) ENGINE = InnoDB;
